@@ -53,6 +53,6 @@ Mapping plan types accurately	Cross-checked flags: is_regular_savings and is_a_f
 Correct handling of inactive accounts	Treated NULL last_transaction_date as inactive  
   
 🛠️ **Tools Used**  
-•	MySQL 8+  
+•	MySQL  
 •	Subqueries, CASE, WITH clauses (CTEs), conditional aggregation  
 •	Built-in date functions like TIMESTAMPDIFF() and DATEDIFF()  
